@@ -12,20 +12,21 @@ package day03.var;
  *  	전역 변수 (글로벌 변수) - 클래스 안에 선언
  *  	지역 변수 - 메소드 또는 생성자 {} 괄호 안에 선언
  *  3. 정적(static) / 동적 변수
- *  	statix - JVM Static area 에 올라가는 변수
+ *  	static - JVM Static area 에 올라가는 변수
  *  				보통 공통값을 선언한다.
  *  	동적 - static 외 전부
  *  			동적인 값 대입
  * 
  */
 
-public class MainClass03 {
+public class 
+ {
 
 	public static void main(String[] args) {
 	
 		
-		Card c1 = new Card(); // 첫번쩨 카드 객체 생성
-		Card c2 = new Card(); // 두번째 카드 객체 생성
+		Card c1 = new Card(); // 첫번쩨 카드 객체 생성 // 참조형 지역변수 동적변수
+		Card c2 = new Card(); // 두번째 카드 객체 생성  
 		
 		c1.tyoe = "클로버";
 		c2.tyoe = "다이아몬드";
@@ -47,7 +48,7 @@ public class MainClass03 {
 	}
 
 		class Card {
-			static int height = 20;
+			static int height = 20; // 기본형 전역변수 정적변수(static)
 			String tyoe = "";
 
 	
