@@ -27,6 +27,7 @@ public class Member {
 		 this.addr = addr;
 	 }
 
+	 //멤버 메소드
 	public int getNum() {
 		return num;
 	}
