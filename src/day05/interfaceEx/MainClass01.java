@@ -22,7 +22,6 @@ public class MainClass01 {
 		ak.attackSky();
 		ak.NAME = "abcd";
 		System.out.println(ak.NAME);
-		ak.autoAttack();
 		
 		//다형성
 		Weapon ak2 + new AkWeapon();
